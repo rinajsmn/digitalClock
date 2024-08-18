@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Nikkyou';
+    src: url(NikkyouSans.ttf);
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Nikkyou', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1723940891902-6cb14bd08d0e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    backdrop-filter: blur(25px) saturate(180%);
+    -webkit-backdrop-filter: blur(25px) saturate(180%);
+    background-color: rgba(181, 188, 201, 0.159);
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: white;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+    backdrop-filter: blur(25px) saturate(180%);
+    -webkit-backdrop-filter: blur(25px) saturate(180%);
+    background-color: rgba(181, 188, 201, 0.159);
+    border-radius: 12px;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.clock span{
+    width: 6.25rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    opacity: 0.8;
+}
+
+.clock .text {
+    height: 2rem;
+    font-size: 1rem;
+   
+}
+.calendar {
+    display: flex;
+}
+
+.calendar div {
+    margin: 2rem 5px;
+    backdrop-filter: blur(25px) saturate(180%);
+    -webkit-backdrop-filter: blur(25px) saturate(180%);
+    background-color: rgba(181, 188, 201, 0.159);
+    border-radius: 12px;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.calendar span {
+    width: 3.125rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    opacity: 0.8;
+}
+
+.calendar .text {
+    height: 2rem;
+    font-size: 1rem;
+}
+
+
